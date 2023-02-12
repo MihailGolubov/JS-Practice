@@ -23,3 +23,68 @@ camelCase - se incepe cu minuscula si restul cuvintelor se incep cu majuscula. S
 /*let myName = 'Mihai'
 console.log(myName)
 */
+/*const room = ["Mobile", "Mouse", "Notebook"];
+console.dir(room)
+console.log(room.length)*/
+/*const contacts = {
+    Ion: "Brazilia",
+    Ana: "Romania",
+    Criss: "Franta"
+}
+console.log(contacts)
+contacts.Daniela = "Moldova"
+console.log(contacts)
+delete contacts.Ana
+console.log(contacts)
+contacts["Viorel"] = "Ungaria"
+console.log(contacts)
+contacts["Moldova"] = "Chisinau"
+console.log(contacts)*/
+/*Putem utiliza const la declararea obiectelor, intrucat adresa nu se schimba, ci doar caracteristicile*/
+/*const Mihai = {
+    virsta: "26",
+    gen: "Masculin",
+    caracteristiciFizice: {
+        inaltime: "170cm",
+        greutate: "72kg"
+    },
+}
+console.log(Mihai.virsta)
+console.log(Mihai.caracteristiciFizice.inaltime)
+delete Mihai.caracteristiciFizice.inaltime
+console.log(Mihai.caracteristiciFizice)*/
+/*const virsta = 26
+const gen = "Masculin"
+const Mihai = {
+    greutate: "72kg",
+    inaltime: "170cm",
+    virsta,
+    gen
+}
+console.log(Mihai)
+*/
+/*
+Din JSON -> JavaScript Object folosim JSON.parse()
+Din JavaScript Object -> JSON folosim JSON.stringify()
+*/
+/*const post = {
+    title: "My Post",
+    likeQty: 5
+}
+console.log(post)
+const postStringify = JSON.stringify(post)
+console.log(postStringify)
+const postParse = JSON.parse(postStringify)
+console.log(postParse)*/
+/*const person = {
+    name: "bob",
+    age: 25
+}
+const person2 = {
+    ...person
+}
+person2.name = "alice"
+console.log(person)
+console.log(person2)
+*/
+//Function
