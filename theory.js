@@ -88,3 +88,7 @@ console.log(person)
 console.log(person2)
 */
 //Function
+function sum(a, b) {
+
+}
+console.table(sum)
